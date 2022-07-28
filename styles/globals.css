@@ -7,7 +7,6 @@
 @font-face {
   font-family: "excalidraw";
   src: url("/fonts/Virgil.woff2") format("woff2");
-  /* font-weight: 400; */
 }
 html,
 body,
@@ -28,12 +27,17 @@ a {
   box-sizing: border-box;
 }
 
+.neomorphism {
+  box-shadow: 0.25rem 0.25rem 1rem 0 rgba(255, 255, 255, 0.3) inset,
+    -2.5rem -2.5rem 1rem 0 rgba(0, 0, 0, 0.25) inset;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: #f1f1f1;
+    background: #1a1a1a;
   }
 }
