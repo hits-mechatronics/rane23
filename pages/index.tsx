@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import CountDown from "../components/CountDown";
 import NavSpot from "../components/NavSpot";
 
 const Home: NextPage = () => {
@@ -10,10 +11,10 @@ const Home: NextPage = () => {
       </Head>
       <div className="select-none h-screen w-screen flex flex-col justify-center items-center gap-16">
         <div className="flex gap-20">
-          <NavSpot content="speakers" />
-          <NavSpot content="guidelines" />
           <NavSpot content="about" />
           <NavSpot content="focus areas" />
+          <NavSpot content="sponsors" />
+          <NavSpot content="speakers" />
         </div>
         <div className="flex flex-col items-center justify-center">
           <h1 className="font-permarker text-9xl">RANE`23</h1>
@@ -51,8 +52,9 @@ const Home: NextPage = () => {
           <NavSpot content="schedule" />
           <NavSpot content="committee" />
           <NavSpot content="registration" />
-          <NavSpot content="sponsors" />
+          <NavSpot content="guidelines" />
         </div>
+        <CountDown timestamp={1659008634} />
       </div>
     </>
   );
