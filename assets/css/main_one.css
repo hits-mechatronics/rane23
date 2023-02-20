@@ -14,6 +14,13 @@ html {
   font-size: 15px;
 }
 
+.flex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+}
 body {
   color: #4e4e4e;
   font-family: Georgia, "Roboto", sans-serif;
@@ -448,12 +455,13 @@ ul li {
   align-items: center;
   justify-content: center;
   /* text-transform: uppercase; */
-}.speaker-row{
+}
+.speaker-row {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.speaker img{
+.speaker img {
   height: 120px;
   width: 120px;
   border-radius: 100vh;
@@ -461,7 +469,7 @@ ul li {
 .speaker img:hover {
   opacity: 0.7;
 }
-.speaker_name{
+.speaker_name {
   display: flex;
   flex-direction: column;
   gap: 0.123rem;
@@ -470,7 +478,7 @@ ul li {
   justify-content: center;
   font-weight: 500;
 }
-.speaker_name p{
+.speaker_name p {
   text-align: center;
   font-size: 12px;
   font-weight: 500;
