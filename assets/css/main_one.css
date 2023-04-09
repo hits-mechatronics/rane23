@@ -571,9 +571,11 @@ ul li {
   background: url(../images/partner/rae.png) no-repeat center center/contain;
 }
 .partner .partner-box-mvr {
+  width: fit-content;
   background: url(../images/partner/mvr.jpg) no-repeat center center/contain;
 }
 .partner .partner-box-ssn {
+  width: fit-content;
   background: url(../images/partner/ssn.png) no-repeat center center/contain;
 }
 .partner .partner-box-uol {
